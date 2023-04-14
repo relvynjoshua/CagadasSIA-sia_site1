@@ -22,3 +22,4 @@ $router->get('/users',['uses' => 'UserController@getUsers']);
 $router->post('/users',['uses' => 'UserController@add']);
 $router->patch('/users/{id}',['uses' => 'UserController@updateUser']);
 $router->delete('/users/{id}',['uses' => 'UserController@deleteUser']);
+
